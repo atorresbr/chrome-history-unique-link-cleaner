@@ -1,8 +1,4 @@
-# Chrome history unique link cleaner 🛡️
-
-![chrome-history-unique-link-cleaner](https://github.com/user-attachments/assets/edde42d1-f665-4572-b230-786e429e4bc9)
-
-
+# Chrome history unique link clean 🛡️
 
 ## Description on 🇺🇸 English, Descricion en 🇪🇸 Español, e Descrição em 🇧🇷 Português
 
@@ -13,14 +9,14 @@ A bash script to clean a specific link (URL) on Google Chrome history. Why? Chro
 Just use the script, type the desired URL (e.g., 🧲 `facebook.com` or 🧲 `translate.google.com`) to the script make the deep cleaning on all spamming URLs stored on your Google Chrome browse History.
 
 ```
+sudo rm link-cleaner.sh &&
 
-sudo rm link-clean.sh &&
+wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-cleaner/refs/heads/main/link-cleane.sh &&
 
-wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-clean/refs/heads/main/link-clean.sh && 
-
-sudo chmod +x link-clean.sh && ./link-clean.sh
+sudo chmod +x link-cleaner.sh && ./link-cleaner 
 
 ```
+
 ### **How the script works (Detailed)**
 The script performs a surgical operation on the browser's internal architecture:
 *   **Process Termination:** It forcefully closes all Chrome/Chromium instances to lift the "Database Lock" state, allowing [SQLite3](https://sqlite.org) to modify the files safely.
