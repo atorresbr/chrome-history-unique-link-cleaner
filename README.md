@@ -1,4 +1,7 @@
-# Chrome history unique link clean 🛡️
+# Chrome history unique link cleaner 🛡️
+
+![chrome-history-unique-link-cleaner](https://github.com/user-attachments/assets/422b056b-2db7-48e9-b8f6-2914f7535d05)
+
 
 ## Description on 🇺🇸 English, Descricion en 🇪🇸 Español, e Descrição em 🇧🇷 Português
 
